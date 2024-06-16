@@ -1,5 +1,11 @@
 # Classificação de Imagens de Flores com CNN 🌼🌷🌹🌻
 
+## Integrantes
+- Gabriela Giolo - 1129816
+- Guilherme Camargo - 1130372
+- Júlia Parizotto - 1127825
+- Mathias Diehl -  1130078
+
 ## Descrição do Projeto 📚
 
 Este projeto tem como objetivo desenvolver uma rede neural convolucional (CNN) para classificar imagens de flores em cinco categorias ([dataset usado](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition)): girassol, margarida, rosa, tulipa e dente-de-leão. O projeto utiliza técnicas de data augmentation e regularização para melhorar a precisão do modelo e evitar overfitting. Além disso, a execução do treinamento pode ser feita tanto em CPU quanto em GPU, dependendo da configuração do ambiente.
