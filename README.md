@@ -88,7 +88,7 @@ print(f'A imagem foi classificada como: {predicted_class}')
 
 ## Exemplos 📜
 
-Imagens utilizadas em ambos os testes:
+- Imagens utilizadas em ambos os testes:
 ![Sunflower](images/flowersExamples/sunflower.jpg)
 ![Daisy](images/flowersExamples/daisy.jpg)
 ![Rose](images/flowersExamples/rose.jpg)
@@ -98,7 +98,10 @@ Imagens utilizadas em ambos os testes:
 
 ### Execução com CPU
 - Print do arquivo `output.log` com resultados da previsão e shape dos dados:
+- Previsão:
 ![Imagem do teste](images/CPU/previsaoCPU.png)
+
+- Shapes:
 ![Imagem do teste](images/CPU/shapesCPU.png)
 
 - Gráficos (explicação abaixo)
@@ -110,7 +113,11 @@ Previsão: 0.20 segundos
 
 ### Execução com GPU
 - Print do arquivo `output.log` com resultados da previsão e shape dos dados:
+
+- Previsão:
 ![Imagem do teste](images/GPU/previsaoGPU.png)
+
+- Shapes:
 ![Imagem do teste](images/GPU/shapesGPU.png)
 
 - Gráficos (explicação abaixo)
