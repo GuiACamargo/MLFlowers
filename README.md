@@ -1,14 +1,14 @@
-# Classificação de Imagens de Flores com CNN
+# Classificação de Imagens de Flores com CNN 🌼🌷🌹🌻
 
-## Descrição do Projeto
+## Descrição do Projeto 📚
 
 Este projeto tem como objetivo desenvolver uma rede neural convolucional (CNN) para classificar imagens de flores em cinco categorias ([dataset usado](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition)): girassol, margarida, rosa, tulipa e dente-de-leão. O projeto utiliza técnicas de data augmentation e regularização para melhorar a precisão do modelo e evitar overfitting. Além disso, a execução do treinamento pode ser feita tanto em CPU quanto em GPU, dependendo da configuração do ambiente.
 
-## O que é Machine Learning?
+## O que é Machine Learning? 🤖
 
 Machine learning (aprendizado de máquina) é um campo da inteligência artificial que permite que sistemas aprendam e façam previsões ou decisões com base em dados. Em vez de serem explicitamente programados para realizar uma tarefa, os modelos de machine learning usam algoritmos para identificar padrões e inferir regras a partir dos dados fornecidos.
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas 💻
 
 - Python
 - TensorFlow e Keras para construção e treinamento do modelo
@@ -16,7 +16,7 @@ Machine learning (aprendizado de máquina) é um campo da inteligência artifici
 - Matplotlib para visualização dos resultados
 - ImageDataGenerator para data augmentation
 
-## Como Rodar
+## Como Rodar ✅
 
 ### Pré-requisitos
 
@@ -37,7 +37,7 @@ cd seu-repositorio
 pip install tensorflow keras matplotlib numpy scikit-learn
 ```
 
-## Executando o Projeto
+## Executando o Projeto 🍀
 
 Para ambas as execuções, um arquivo output.log será gerado com informações da execução, shape das imagens e labels e resultado das previsões de teste
 
@@ -80,7 +80,7 @@ predicted_class = label_encoder.classes_[np.argmax(prediction)]
 print(f'A imagem foi classificada como: {predicted_class}')
 ```
 
-## Exemplos
+## Exemplos 📜
 
 Imagens utilizadas em ambos os testes:
 ![Sunflower](images/flowersExamples/sunflower.jpg)
@@ -114,7 +114,7 @@ Previsão: 0.20 segundos
 Treinamento: 57.51 segundos
 Previsão: 0.19 segundos
 
-## Análise dos Gráficos de Acurácia e Perda
+## Análise dos Gráficos de Acurácia e Perda 📈
 
 ### Gráfico de Acurácia de Treinamento e Validação
 
