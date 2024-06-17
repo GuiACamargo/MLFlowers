@@ -1,10 +1,13 @@
 # Classificação de Imagens de Flores com CNN 🌼🌷🌹🌻
 
 ## Integrantes
+- Alexandre Kovaleski Fochi - 1130641
 - Gabriela Giolo - 1129816
 - Guilherme Camargo - 1130372
 - Júlia Parizotto - 1127825
+- Matheus Rodrigues - 1129942
 - Mathias Diehl -  1130078
+- Nicolas Falcão - 1114531
 
 ## Descrição do Projeto 📚
 
